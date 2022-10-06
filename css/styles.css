@@ -1,0 +1,252 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  background-color: #FFFBE9;
+  padding-top: 125px;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  width: 5%;
+  border-width: 5px;
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  font-family: "Great Vibes", cursive;
+}
+h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+#title img{
+  max-height: 100px;
+}
+#Suite-1 img {
+  max-width: 75%;
+  max-height: 600px;
+  height: auto;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.header1 {
+  background: rgb(65,105,225);
+
+}
+
+.welcome {
+  grid-column: 1;
+}
+
+.polices {
+  grid-column: 2;
+}
+
+.policies-text {
+  text-decoration: none;
+  color: #277BC0;
+}
+
+.info {
+  grid-column: 3;
+}
+
+.info-text {
+  text-decoration: none;
+  color: #277BC0;
+}
+
+#title {
+  text-align: left;
+}
+
+.logo {
+  border-radius: 30%;
+  background: rgb(255,255,255);
+
+}
+
+.reservations {}
+
+.title-image {
+  height: 700px;
+  max-width: 100%;
+  z-index: -1;
+  position: relative;
+  top: 0;
+}
+
+#welcome {
+  text-align: center;
+  background: white;
+  padding: 3rem;
+}
+
+.big-heading {
+  padding: 1rem;
+  font-weight: bold;
+  background: white;
+  display: inline-block;
+
+}
+
+.welcome-text {
+  padding: 1rem;
+  margin: 0 4rem 3.5rem;
+  background: white;
+
+}
+
+#stuff {
+  background: rgb(65,105,225);
+  color: white;
+  padding: 2rem
+}
+
+.pic-1 {
+  float: left;
+  margin-right: 1rem;
+}
+
+.pic-2 {
+  float: right;
+  margin-left: 1rem;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.room-title {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+#Suite-1 {
+  padding: 2rem 0 4rem;
+  background-color: #CEAB93;
+}
+
+.carousel {
+  margin: 2rem;
+}
+
+.suite-img {
+  padding-bottom: 4rem;
+}
+
+.control {
+  margin: auto 15% auto;
+}
+
+.room-text {
+  margin: 0 10% 0;
+}
+
+
+#footer {
+  text-align: center;
+  position: relative;
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+.f {
+
+  display: inline-block;
+  position: relative;
+  padding: 2rem;
+
+}
+.f-img {
+  padding: 0;
+}
+.list-none {
+  list-style-type: none;
+
+
+}
+.logo2 {
+  height: 10rem;
+float: right;
+top: 0;
+}
+.f hr {
+  width: 50%;
+}
+#copyright {
+  float: none;
+}
+#About-Us {
+  background-color: #CEAB93;
+}
+
+#Gallery {
+  background-color: white;
+}
+
+#Directions {
+  background-color: #CEAB93;
+}
+
+#Catering {
+  background-color: white;
+}
+
+#Activity-Guide {
+  background-color: #CEAB93;
+}
+
+#Restaurants {
+  background-color: white;
+}
+
+#Weather {
+  background-color: #CEAB93;
+}
+
+#Weather h1 {
+  margin-bottom: 0;
+}
+
+.btn {
+  background: rgb(23,57,140);
+  background: linear-gradient(0deg, rgba(23,57,140,1) 0%, rgba(40,160,255,1) 100%);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: rgb(48,81,162);
+  background: linear-gradient(0deg, rgba(48,81,162,1) 0%, rgba(116,194,255,1) 100%);
+  text-decoration: none;
+}
